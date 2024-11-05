@@ -16,13 +16,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/student-teacher")
 public class StudentTeacherController {
-
     @Autowired
     private StudentTeacherService studentTeacherService;
-
     @Autowired
     private StudentService studentService;
-
     @Autowired
     private TeacherService teacherService;
 
